@@ -1,4 +1,14 @@
-// UNO
+/*  Project arsy
+*
+*   Create a pwm signal to test arsy
+*
+*   Connect a momentary swith between digital pin 4 and GND - ON (A)
+*   Connect a momentary swith between digital pin 5 and GND - OFF (B)
+*   Connect digital pin 9 to the sensor pin (digital pin 2) on the nano running arsy.
+*   press and hold the on button for 2 seconds to turn on the relay
+*   press the off button to immediately turn off the relay
+*/
+
 #include <Servo.h>
 
 Servo myServo;
