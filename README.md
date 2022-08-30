@@ -7,9 +7,13 @@ Servo library: https://github.com/dmadison/ServoInput/
 
 ## Nano connections
 Connect servo signal to nano digital pin 2
+
 Connect servo ground to nano ground
+
 Connect servo VCC to nano VIN
+
 Connect the relay control circuit to digital pin 4
+
 
 ## Circuit diagram for controlling the relay
 ![circuit diagram 1](circuitDiagram.png)
